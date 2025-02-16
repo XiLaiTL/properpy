@@ -1,0 +1,30 @@
+[project]
+name = "properpy"
+version = "0.1.0"
+description = "Python File as Property File. Configuration in Python Itself. "
+authors = [
+  {name = "XiLaiTL", email = "xilaitl@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+license = "MIT"
+keywords = ["config","configuration","properties","property","script","DSL","python"]
+classifiers = [
+    "Topic :: File Formats :: JSON",
+    "Topic :: File Formats :: JSON :: JSON Schema",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Homepage = "https://github.com/XiLaiTL/properpy"
+Documentation = "https://github.com/XiLaiTL/properpy/blob/main/README.md"
+Repository = "https://github.com/XiLaiTL/properpy.git"
+Issues = "https://github.com/XiLaiTL/properpy/issues"
