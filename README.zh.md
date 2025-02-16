@@ -25,6 +25,14 @@ pip install properpy
 
 ### 基本使用
 
+项目中通常有三种文件类型
+```text
+|-config_schema.py # 定义文件
+|-config.proper.py # 配置文件
+|-app.py           # 读取配置的解析程序
+
+```
+
 #### 定义文件编写 (`config_schema.py`)
 
 定义文件指的是定义配置项的数目、配置项的类型的文件。通常用于验证配置项的合法性，并提供书写时的类型提示。

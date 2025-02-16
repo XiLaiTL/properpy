@@ -26,6 +26,14 @@ pip install properpy
 
 ### Basic Usage
 
+There are three file in one project.
+```text
+|-config_schema.py # Definition file
+|-config.proper.py # Configuration file
+|-app.py           # Program which reads the configuration
+
+```
+
 #### Writing Definition File (`config_schema.py`)
 
 The definition file refers to the file that defines the number of configuration items and the types of configuration items. It is usually used to verify the legality of configuration items and provide type hints when writing.

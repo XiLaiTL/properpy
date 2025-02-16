@@ -28,3 +28,6 @@ Homepage = "https://github.com/XiLaiTL/properpy"
 Documentation = "https://github.com/XiLaiTL/properpy/blob/main/README.md"
 Repository = "https://github.com/XiLaiTL/properpy.git"
 Issues = "https://github.com/XiLaiTL/properpy/issues"
+
+[tool.setuptools]
+license-files = []
